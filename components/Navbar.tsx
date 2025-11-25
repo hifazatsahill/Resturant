@@ -28,16 +28,17 @@ export const Navbar: React.FC<NavbarProps> = ({ setView, activeView }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div 
+          <div
             className="flex items-center space-x-3 cursor-pointer group"
             onClick={() => handleNavClick(ViewState.HOME)}
+            title="AL Mujahid Quetta Caffe Resturant"
+            aria-label="AL Mujahid Quetta Caffe Resturant"
           >
             <div className="bg-brand-gold/20 p-2 rounded-full border border-brand-gold/50 group-hover:scale-110 transition-transform">
               <Coffee className="h-8 w-8 text-brand-gold" />
             </div>
             <div className="flex flex-col">
-              <span className="font-serif text-xl font-bold tracking-wider text-brand-gold">Talha Mujahid</span>
-              <span className="text-xs uppercase tracking-[0.2em] text-gray-300">Quetta Caffe</span>
+              <span className="font-serif text-lg font-bold tracking-wider text-brand-gold">AL Mujahid Quetta Caffe Resturant</span>
             </div>
           </div>
 

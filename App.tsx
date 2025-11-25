@@ -83,7 +83,7 @@ const App: React.FC = () => {
             <div className="py-20 px-6 max-w-4xl mx-auto text-center">
               <h2 className="text-4xl font-serif font-bold mb-8 text-brand-gold">Our Story</h2>
               <p className="text-lg text-slate-300 leading-relaxed mb-6">
-                Founded with a passion for authentic taste, <span className="font-bold text-brand-primary">Talha Mujahid Quetta Caffe</span> brings the serene vibes of Astore Deosai Lake right to your table. We believe in serving not just food, but an experience. From our signature Chai to our spicy Karahi, every dish tells a story of tradition.
+                Founded with a passion for authentic taste, <span className="font-bold text-brand-primary">AL Mujahid Quetta Caffe Resturant</span> brings the serene vibes of Astore Deosai Lake right to your table. We believe in serving not just food, but an experience. From our signature Chai to our spicy Karahi, every dish tells a story of tradition.
               </p>
               <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-black/50 mt-8 border border-white/10">
                 <img 

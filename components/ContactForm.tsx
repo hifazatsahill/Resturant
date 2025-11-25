@@ -77,7 +77,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ initialMessage = '' })
   return (
     <div className="bg-brand-card p-8 rounded-2xl shadow-xl border border-white/10">
       <div className="mb-8">
-        <h3 className="text-2xl font-serif font-bold text-brand-gold">Get in Touch</h3>
+        <h3 className="text-2xl font-serif font-bold text-brand-gold">AL Mujahid Quetta Caffe Resturant</h3>
         <p className="text-slate-400 text-sm mt-2">
           Fill the form below to place an order or reserve a table. We'll connect via WhatsApp.
         </p>

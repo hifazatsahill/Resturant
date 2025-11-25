@@ -30,7 +30,7 @@ export const Footer: React.FC<FooterProps> = ({ setView }) => {
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-serif font-bold text-white">Talha Mujahid <span className="text-brand-gold">Caffe</span></h3>
+              <h3 className="text-2xl font-serif font-bold text-white">AL Mujahid Quetta <span className="text-brand-gold">Caffe Resturant</span></h3>
             <p className="text-sm text-slate-400 leading-relaxed">
               A blend of traditional Quetta taste and modern luxury. Come for the tea, stay for the experience.
             </p>
@@ -126,7 +126,7 @@ export const Footer: React.FC<FooterProps> = ({ setView }) => {
       {/* Copyright */}
       <div className="bg-[#000208] py-6 border-t border-slate-900">
         <div className="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Talha Mujahid Quetta Caffe. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AL Mujahid Quetta Caffe Resturant. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
